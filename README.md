@@ -128,3 +128,18 @@ MIT
 
 
 
+
+
+
+7490488-alt/USSADBA_BOT
+git remote add origin https://github.com/7490488-alt/USSADBA_BOT.git
+
+Когда вносишь изменения:
+git add .
+git commit -m "Описание изменений"
+git push
+
+
+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     Токен githab
+
+
