@@ -1,0 +1,6 @@
+python-dotenv
+python-telegram-bot[bot]
+httpx
+pydantic-settings
+redis  # опционально, если будешь использовать Redis
+aiofiles  # если будешь асинхронно читать файлы

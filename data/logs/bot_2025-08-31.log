@@ -1,0 +1,391 @@
+2025-08-31 10:48:48,211 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 10:48:48,220 - utils.logger - INFO - ✅ nest_asyncio применён — поддержка вложенных event loop
+2025-08-31 10:54:53,237 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 10:54:53,242 - utils.logger - INFO - ✅ nest_asyncio применён — поддержка вложенных event loop
+2025-08-31 11:09:47,205 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 11:09:47,212 - utils.logger - INFO - ✅ nest_asyncio применён — поддержка вложенных event loop
+2025-08-31 11:13:36,011 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 11:13:36,016 - utils.logger - INFO - ✅ nest_asyncio применён — поддержка вложенных event loop
+2025-08-31 11:18:33,980 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 11:18:33,984 - utils.logger - INFO - ✅ nest_asyncio применён — поддержка вложенных event loop
+2025-08-31 11:24:02,965 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 11:24:02,970 - utils.logger - INFO - ✅ nest_asyncio применён — поддержка вложенных event loop
+2025-08-31 11:38:19,277 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 11:38:19,284 - utils.logger - INFO - ✅ nest_asyncio применён — поддержка вложенных event loop
+2025-08-31 11:49:55,466 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 11:49:55,470 - utils.logger - INFO - ✅ nest_asyncio применён — поддержка вложенных event loop
+2025-08-31 12:16:59,842 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 12:16:59,846 - utils.logger - INFO - ✅ nest_asyncio применён — поддержка вложенных event loop
+2025-08-31 12:17:00,678 - utils.logger - INFO - ✅ Промпт загружен
+2025-08-31 12:17:33,814 - utils.logger - INFO - ✅ История сохранена: 3 сообщений
+2025-08-31 12:17:50,835 - utils.logger - INFO - ✅ История сохранена: 5 сообщений
+2025-08-31 12:18:48,919 - utils.logger - INFO - ✅ История сохранена: 7 сообщений
+2025-08-31 12:19:03,603 - utils.logger - INFO - ✅ История сохранена: 9 сообщений
+2025-08-31 12:19:21,322 - utils.logger - INFO - ✅ История сохранена: 11 сообщений
+2025-08-31 12:19:32,761 - utils.logger - INFO - ✅ История сохранена: 13 сообщений
+2025-08-31 12:34:25,787 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 12:34:25,791 - utils.logger - INFO - ✅ nest_asyncio применён — поддержка вложенных event loop
+2025-08-31 12:34:26,569 - utils.logger - INFO - ✅ Промпт загружен
+2025-08-31 12:34:43,486 - utils.logger - ERROR - Ошибка: name 'docs' is not defined
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1311, in process_update
+    await coroutine
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Prpject\ussadba_bot\bot\handlers\chat.py", line 86, in chat
+    await docs(update, context)
+          ^^^^
+NameError: name 'docs' is not defined
+2025-08-31 12:34:43,497 - telegram.ext.Application - ERROR - An error was raised and an uncaught error was raised while handling the error with an error_handler.
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1311, in process_update
+    await coroutine
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Prpject\ussadba_bot\bot\handlers\chat.py", line 86, in chat
+    await docs(update, context)
+          ^^^^
+NameError: name 'docs' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1925, in process_error
+    await callback(update, context)
+TypeError: object NoneType can't be used in 'await' expression
+2025-08-31 12:34:54,230 - utils.logger - ERROR - Ошибка: name 'docs' is not defined
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1311, in process_update
+    await coroutine
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Prpject\ussadba_bot\bot\handlers\chat.py", line 86, in chat
+    await docs(update, context)
+          ^^^^
+NameError: name 'docs' is not defined
+2025-08-31 12:34:54,236 - telegram.ext.Application - ERROR - An error was raised and an uncaught error was raised while handling the error with an error_handler.
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1311, in process_update
+    await coroutine
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Prpject\ussadba_bot\bot\handlers\chat.py", line 86, in chat
+    await docs(update, context)
+          ^^^^
+NameError: name 'docs' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1925, in process_error
+    await callback(update, context)
+TypeError: object NoneType can't be used in 'await' expression
+2025-08-31 12:35:11,304 - utils.logger - ERROR - Ошибка: name 'docs' is not defined
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1311, in process_update
+    await coroutine
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Prpject\ussadba_bot\bot\handlers\chat.py", line 86, in chat
+    await docs(update, context)
+          ^^^^
+NameError: name 'docs' is not defined
+2025-08-31 12:35:11,317 - telegram.ext.Application - ERROR - An error was raised and an uncaught error was raised while handling the error with an error_handler.
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1311, in process_update
+    await coroutine
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Prpject\ussadba_bot\bot\handlers\chat.py", line 86, in chat
+    await docs(update, context)
+          ^^^^
+NameError: name 'docs' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1925, in process_error
+    await callback(update, context)
+TypeError: object NoneType can't be used in 'await' expression
+2025-08-31 12:35:23,926 - utils.logger - ERROR - Ошибка: name 'ReplyKeyboardMarkup' is not defined
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1311, in process_update
+    await coroutine
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Prpject\ussadba_bot\bot\handlers\chat.py", line 102, in chat
+    reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+                   ^^^^^^^^^^^^^^^^^^^
+NameError: name 'ReplyKeyboardMarkup' is not defined
+2025-08-31 12:35:23,953 - telegram.ext.Application - ERROR - An error was raised and an uncaught error was raised while handling the error with an error_handler.
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1311, in process_update
+    await coroutine
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Prpject\ussadba_bot\bot\handlers\chat.py", line 102, in chat
+    reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+                   ^^^^^^^^^^^^^^^^^^^
+NameError: name 'ReplyKeyboardMarkup' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1925, in process_error
+    await callback(update, context)
+TypeError: object NoneType can't be used in 'await' expression
+2025-08-31 12:40:55,046 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 12:40:55,050 - utils.logger - INFO - ✅ nest_asyncio применён — поддержка вложенных event loop
+2025-08-31 12:44:26,597 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 12:44:26,601 - utils.logger - INFO - ✅ nest_asyncio применён — поддержка вложенных event loop
+2025-08-31 12:44:27,183 - utils.logger - INFO - ✅ Кэш загружен: 6 записей
+2025-08-31 12:44:27,203 - utils.logger - INFO - ✅ Промпт загружен
+2025-08-31 12:44:51,964 - utils.logger - ERROR - Ошибка: name 'docs' is not defined
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1311, in process_update
+    await coroutine
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Prpject\ussadba_bot\bot\handlers\chat.py", line 86, in chat
+    await docs(update, context)
+          ^^^^
+NameError: name 'docs' is not defined
+2025-08-31 12:44:51,979 - telegram.ext.Application - ERROR - An error was raised and an uncaught error was raised while handling the error with an error_handler.
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1311, in process_update
+    await coroutine
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Prpject\ussadba_bot\bot\handlers\chat.py", line 86, in chat
+    await docs(update, context)
+          ^^^^
+NameError: name 'docs' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1925, in process_error
+    await callback(update, context)
+TypeError: object NoneType can't be used in 'await' expression
+2025-08-31 12:44:59,550 - utils.logger - ERROR - Ошибка: name 'ReplyKeyboardMarkup' is not defined
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1311, in process_update
+    await coroutine
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Prpject\ussadba_bot\bot\handlers\chat.py", line 102, in chat
+    reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+                   ^^^^^^^^^^^^^^^^^^^
+NameError: name 'ReplyKeyboardMarkup' is not defined
+2025-08-31 12:44:59,564 - telegram.ext.Application - ERROR - An error was raised and an uncaught error was raised while handling the error with an error_handler.
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1311, in process_update
+    await coroutine
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Prpject\ussadba_bot\bot\handlers\chat.py", line 102, in chat
+    reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+                   ^^^^^^^^^^^^^^^^^^^
+NameError: name 'ReplyKeyboardMarkup' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1925, in process_error
+    await callback(update, context)
+TypeError: object NoneType can't be used in 'await' expression
+2025-08-31 12:46:08,966 - utils.logger - ERROR - Ошибка: name 'ReplyKeyboardMarkup' is not defined
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1311, in process_update
+    await coroutine
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Prpject\ussadba_bot\bot\handlers\chat.py", line 102, in chat
+    reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+                   ^^^^^^^^^^^^^^^^^^^
+NameError: name 'ReplyKeyboardMarkup' is not defined
+2025-08-31 12:46:08,981 - telegram.ext.Application - ERROR - An error was raised and an uncaught error was raised while handling the error with an error_handler.
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1311, in process_update
+    await coroutine
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Prpject\ussadba_bot\bot\handlers\chat.py", line 102, in chat
+    reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+                   ^^^^^^^^^^^^^^^^^^^
+NameError: name 'ReplyKeyboardMarkup' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1925, in process_error
+    await callback(update, context)
+TypeError: object NoneType can't be used in 'await' expression
+2025-08-31 12:54:32,472 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 12:54:32,476 - utils.logger - INFO - ✅ nest_asyncio применён — поддержка вложенных event loop
+2025-08-31 12:54:33,193 - utils.logger - INFO - ✅ Кэш загружен: 6 записей
+2025-08-31 14:08:18,554 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 14:08:18,561 - utils.logger - INFO - ✅ nest_asyncio применён — поддержка вложенных event loop
+2025-08-31 14:08:19,384 - utils.logger - INFO - ✅ Промпт загружен
+2025-08-31 14:08:22,075 - utils.logger - INFO - 🚀 Бот запущен. Ожидание сообщений...
+2025-08-31 14:08:39,899 - utils.logger - ERROR - Ошибка: name 'KeyboardButton' is not defined
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1311, in process_update
+    await coroutine
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Prpject\ussadba_bot\bot\handlers\docs.py", line 26, in docs
+    await list_documents(update, context)
+  File "C:\Users\Prpject\ussadba_bot\bot\handlers\docs.py", line 56, in list_documents
+    await update.message.reply_text(msg, reply_markup=create_keyboard())
+                                                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Prpject\ussadba_bot\bot\handlers\docs.py", line 18, in create_keyboard
+    buttons.append([KeyboardButton("📋 Все документы")])
+                    ^^^^^^^^^^^^^^
+NameError: name 'KeyboardButton' is not defined
+2025-08-31 14:09:39,906 - utils.logger - ERROR - Ошибка: name 'KeyboardButton' is not defined
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1311, in process_update
+    await coroutine
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Prpject\ussadba_bot\bot\handlers\docs.py", line 26, in docs
+    await list_documents(update, context)
+  File "C:\Users\Prpject\ussadba_bot\bot\handlers\docs.py", line 56, in list_documents
+    await update.message.reply_text(msg, reply_markup=create_keyboard())
+                                                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Prpject\ussadba_bot\bot\handlers\docs.py", line 18, in create_keyboard
+    buttons.append([KeyboardButton("📋 Все документы")])
+                    ^^^^^^^^^^^^^^
+NameError: name 'KeyboardButton' is not defined
+2025-08-31 14:09:52,789 - utils.logger - ERROR - Ошибка: name 'KeyboardButton' is not defined
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1311, in process_update
+    await coroutine
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Prpject\ussadba_bot\bot\handlers\docs.py", line 47, in docs
+    await list_documents(update, context)
+  File "C:\Users\Prpject\ussadba_bot\bot\handlers\docs.py", line 56, in list_documents
+    await update.message.reply_text(msg, reply_markup=create_keyboard())
+                                                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Prpject\ussadba_bot\bot\handlers\docs.py", line 18, in create_keyboard
+    buttons.append([KeyboardButton("📋 Все документы")])
+                    ^^^^^^^^^^^^^^
+NameError: name 'KeyboardButton' is not defined
+2025-08-31 14:45:12,922 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 14:45:13,597 - utils.logger - INFO - 🚀 Инициализация приложения...
+2025-08-31 14:45:13,597 - utils.logger - ERROR - 🔴 Фатальная ошибка: 'FileCache' object has no attribute 'initialize'
+Traceback (most recent call last):
+  File "c:\Users\Prpject\ussadba_bot\main.py", line 49, in main
+    async with lifespan() as app_data:
+               ^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Prpject\ussadba_bot\main.py", line 33, in lifespan
+    await cache.initialize()
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'FileCache' object has no attribute 'initialize'
+2025-08-31 14:53:26,221 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 14:56:43,404 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 14:56:44,001 - utils.logger - INFO - 🚀 Инициализация приложения...
+2025-08-31 14:56:44,018 - utils.logger - INFO - ✅ Кэш инициализирован
+2025-08-31 14:56:45,435 - utils.logger - INFO - ✅ YandexLLM инициализирован
+2025-08-31 14:56:45,436 - utils.logger - INFO - ✅ LLM сервис инициализирован
+2025-08-31 14:56:47,882 - utils.logger - INFO - 🤖 Бот запущен. Ожидание сообщений...
+2025-08-31 14:56:48,313 - utils.logger - ERROR - 🔴 Фатальная ошибка: Cannot close a running event loop
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1049, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 667, in run_until_complete
+    self._check_running()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 626, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1074, in __run
+    loop.run_until_complete(self.shutdown())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 667, in run_until_complete
+    self._check_running()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 626, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Prpject\ussadba_bot\main.py", line 57, in main
+    await application.run_polling()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 839, in run_polling
+    return self.__run(
+           ^^^^^^^^^^^
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1079, in __run
+    loop.close()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\selector_events.py", line 101, in close
+    raise RuntimeError("Cannot close a running event loop")
+RuntimeError: Cannot close a running event loop
+2025-08-31 14:59:34,333 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 14:59:34,894 - utils.logger - INFO - ✅ Кэш инициализирован
+2025-08-31 14:59:36,039 - utils.logger - INFO - ✅ YandexLLM инициализирован
+2025-08-31 14:59:36,039 - utils.logger - INFO - ✅ LLM сервис инициализирован
+2025-08-31 14:59:37,976 - utils.logger - INFO - 🤖 Бот запущен. Ожидание сообщений...
+2025-08-31 15:06:05,544 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 15:06:06,161 - utils.logger - INFO - ✅ Кэш инициализирован
+2025-08-31 15:06:07,346 - utils.logger - INFO - ✅ YandexLLM инициализирован
+2025-08-31 15:06:07,346 - utils.logger - INFO - ✅ LLM сервис инициализирован
+2025-08-31 15:06:09,860 - utils.logger - INFO - ✅ Обработчики зарегистрированы
+2025-08-31 15:06:09,860 - utils.logger - INFO - 🤖 Бот запущен. Ожидание сообщений...
+2025-08-31 15:27:25,507 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 15:27:26,103 - utils.logger - INFO - ✅ Кэш инициализирован
+2025-08-31 15:27:26,103 - utils.logger - ERROR - 🔴 Фатальная ошибка: name 'IntentRecognizer' is not defined
+Traceback (most recent call last):
+  File "c:\Users\Prpject\ussadba_bot\main.py", line 37, in main
+    llm_service = YandexLLM()
+                  ^^^^^^^^^^^
+  File "c:\Users\Prpject\ussadba_bot\services\llm.py", line 88, in __init__
+    self.prompt_manager = PromptManager(prompts_dir)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Prpject\ussadba_bot\services\llm.py", line 13, in __init__
+    self.intent_recognizer = IntentRecognizer(prompts_dir)
+                             ^^^^^^^^^^^^^^^^
+NameError: name 'IntentRecognizer' is not defined
+2025-08-31 15:30:42,628 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 15:30:43,366 - utils.logger - INFO - ✅ Кэш инициализирован
+2025-08-31 15:30:45,063 - utils.logger - INFO - ✅ YandexLLM инициализирован
+2025-08-31 15:30:45,064 - utils.logger - INFO - ✅ LLM сервис инициализирован
+2025-08-31 15:30:47,573 - utils.logger - INFO - ✅ Обработчики зарегистрированы
+2025-08-31 15:30:47,573 - utils.logger - INFO - 🤖 Бот запущен. Ожидание сообщений...
+2025-08-31 15:56:44,781 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 15:56:45,857 - utils.logger - INFO - ✅ Кэш инициализирован
+2025-08-31 15:56:47,532 - utils.logger - INFO - ✅ YandexLLM инициализирован
+2025-08-31 15:56:47,533 - utils.logger - INFO - ✅ LLM сервис инициализирован
+2025-08-31 15:56:49,983 - utils.logger - INFO - ✅ Обработчики зарегистрированы
+2025-08-31 15:56:49,983 - utils.logger - INFO - 🤖 Бот запущен. Ожидание сообщений...
+2025-08-31 16:09:00,989 - utils.logger - INFO - 🔧 Логирование инициализировано
+2025-08-31 16:09:01,723 - utils.logger - INFO - ✅ Кэш инициализирован
+2025-08-31 16:09:03,133 - utils.logger - INFO - ✅ YandexLLM инициализирован
+2025-08-31 16:09:03,134 - utils.logger - INFO - ✅ LLM сервис инициализирован
+2025-08-31 16:09:05,789 - utils.logger - INFO - ✅ Обработчики зарегистрированы
+2025-08-31 16:09:05,790 - utils.logger - INFO - 🤖 Бот запущен. Ожидание сообщений...

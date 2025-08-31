@@ -1,0 +1,116 @@
+2025-08-29 13:42:05,051 - utils.logger - INFO - ✅ Промпт загружен
+2025-08-29 13:42:05,052 - utils.logger - INFO - ✅ Yandex LLM инициализирован
+2025-08-29 13:42:07,737 - utils.logger - INFO - 🚀 Бот запущен. Ожидание сообщений...
+2025-08-29 13:42:07,946 - utils.logger - ERROR - 🔴 Ошибка при запуске: Cannot close a running event loop
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1049, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 667, in run_until_complete
+    self._check_running()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 626, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1074, in __run
+    loop.run_until_complete(self.shutdown())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 667, in run_until_complete
+    self._check_running()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 626, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Prpject\ussadba_bot\main.py", line 23, in main
+    await application.run_polling()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 839, in run_polling
+    return self.__run(
+           ^^^^^^^^^^^
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1079, in __run
+    loop.close()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 687, in close
+    raise RuntimeError("Cannot close a running event loop")
+RuntimeError: Cannot close a running event loop
+2025-08-29 13:54:06,008 - utils.logger - INFO - ✅ Промпт загружен
+2025-08-29 13:54:06,009 - utils.logger - INFO - ✅ Yandex LLM инициализирован
+2025-08-29 13:54:07,330 - utils.logger - INFO - 🚀 Бот запущен. Ожидание сообщений...
+2025-08-29 13:54:07,500 - utils.logger - ERROR - 🔴 Ошибка при запуске: Cannot close a running event loop
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1049, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 667, in run_until_complete
+    self._check_running()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 626, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1074, in __run
+    loop.run_until_complete(self.shutdown())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 667, in run_until_complete
+    self._check_running()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 626, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Prpject\ussadba_bot\main.py", line 23, in main
+    await application.run_polling()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 839, in run_polling
+    return self.__run(
+           ^^^^^^^^^^^
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1079, in __run
+    loop.close()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 687, in close
+    raise RuntimeError("Cannot close a running event loop")
+RuntimeError: Cannot close a running event loop
+2025-08-29 13:56:54,334 - utils.logger - INFO - ✅ Промпт загружен
+2025-08-29 13:56:56,857 - utils.logger - INFO - 🚀 Бот запущен. Ожидание сообщений...
+2025-08-29 13:57:50,845 - utils.logger - ERROR - Ошибка: 'ExtBot' object has no attribute 'bot_data'
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1311, in process_update
+    await coroutine
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Prpject\ussadba_bot\bot\handlers\chat.py", line 29, in chat
+    if "llm_service" not in context.bot.bot_data:
+                            ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ExtBot' object has no attribute 'bot_data'
+2025-08-29 13:57:50,864 - telegram.ext.Application - ERROR - An error was raised and an uncaught error was raised while handling the error with an error_handler.
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1311, in process_update
+    await coroutine
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Prpject\ussadba_bot\bot\handlers\chat.py", line 29, in chat
+    if "llm_service" not in context.bot.bot_data:
+                            ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ExtBot' object has no attribute 'bot_data'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\adm\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\telegram\ext\_application.py", line 1925, in process_error
+    await callback(update, context)
+TypeError: object NoneType can't be used in 'await' expression
+2025-08-29 18:54:04,040 - utils.logger - INFO - ✅ Промпт загружен
+2025-08-29 18:54:06,908 - utils.logger - INFO - 🚀 Бот запущен. Ожидание сообщений...
+2025-08-29 18:54:50,801 - utils.logger - INFO - ✅ История сохранена: 3 сообщений
+2025-08-29 18:55:03,583 - utils.logger - INFO - ✅ История сохранена: 5 сообщений
+2025-08-29 18:55:20,855 - utils.logger - INFO - ✅ История сохранена: 7 сообщений
+2025-08-29 18:55:37,172 - utils.logger - INFO - ✅ История сохранена: 9 сообщений
+2025-08-29 18:59:40,585 - utils.logger - INFO - ✅ Промпт загружен
+2025-08-29 18:59:42,961 - utils.logger - INFO - 🚀 Бот запущен. Ожидание сообщений...
+2025-08-29 19:00:19,503 - utils.logger - INFO - ✅ История сохранена: 11 сообщений

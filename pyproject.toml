@@ -1,0 +1,30 @@
+[tool.mypy]
+python_version = "3.12"
+platform = "win32"
+
+# Пути
+mypy_path = ["."]
+packages = ["bot", "services", "utils"]
+
+# Игнорировать известные проблемы с pydantic-settings
+disable_error_code = [
+    "call-arg",        # Игнорирует "Missing named argument" для Settings()
+    "import-untyped",  # Игнорирует untyped imports
+    "no-redef",        # Разрешает redefinition
+]
+
+# Не строгая проверка Optional
+strict_optional = false
+no_implicit_optional = false
+
+# Следовать импортам
+follow_imports = "silent"
+
+# Игнорировать отсутствие stub-файлов
+ignore_missing_imports = true
+
+# Разрешить переопределение
+allow_redefinition = true
+
+# Отключить проверку TypedDict
+enable_error_code = ["typeddict-unknown-key"]
